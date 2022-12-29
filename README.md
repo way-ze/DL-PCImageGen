@@ -28,6 +28,6 @@ rms_error - calculated rmse
 
 learn_ann - performs back-propagation - from what I understand, this is just standard BP. 
 
-TODO - learn_pc - performs the learning for a predictive coding network - to research how to make own NN architecture in pytorch, maybe pytorch lightning
+DONE, to implement in pytorch - learn_pc - performs the learning for a predictive coding network - to research how to make own NN architecture in pytorch, maybe pytorch lightning
 
-TODO - infer_pc - performs the inference stage - tied in with learn_pc as the more important code
+DONE, to implement in pytorch - infer_pc - performs the inference stage - tied in with learn_pc as the more important code
