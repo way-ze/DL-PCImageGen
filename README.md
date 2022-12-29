@@ -1,6 +1,6 @@
 # DL-PCImageGen
 
-By Wayne Zeng and Diego Arapovic
+By Wayne Zeng and Diego Arapovic (diego-arapovic <diego-arapovic@users.noreply.github.com>)
 
 This repository is based on the works of @tommorse, specifically https://github.com/ModelDBRepository/218084, Whittington and Bogasz.
 
