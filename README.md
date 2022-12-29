@@ -6,6 +6,10 @@ This repository is based on the works of @tommorse, specifically https://github.
 
 We aim to build a basic PC Network in order to then attempt the challenges proposed in "A Predictive-Coding Network That Is Both Discriminative and Generative" (https://pubmed.ncbi.nlm.nih.gov/32795234/).
 
+## Proposal Feedback
+
+The proposal is very clear, and the idea is valid. The literature review is complete but too brief. It would have been better to give a more detailed description of the cited papers, especially the main reference [2]. It follows that both the motivation and the method could have been elaborated further. One small note on the idea: the results in [2] are far from satisfying, so there’s definitely room for improvement even on MNIST. Instead of blindly following the recipe from [2], you might want to experiment (first on MNIST) with new solutions. Good luck!
+
 ## Notes from ModelDBRepo that still need to be implemented
 
 example_code.m generates data for an XOR gate. Then trains a predictive coding network, as well as the equivalent MLP on the data.
