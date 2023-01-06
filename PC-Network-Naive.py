@@ -93,6 +93,7 @@ class PCNet():
                 e[ii] = (x[ii] - w[ii-1] @ f_n[ii-1] - b[ii-1]) / var[ii]
         return x, e, it_max
     
+    
     def f_b(x):
         return 1 - np.tanh(x) ** 2
 
