@@ -29,8 +29,6 @@ for i in range(0, max_iter):
     eps_u_new = u - g(phi) - sigma_u*eps_u
     
     # update the actual variables
-    # eps_p = phi - v_p - eps_p_new
-    # eps_u = u - g(phi) - eps_u_new
     phi = phi + 0.1 * phi_new
     eps_p = eps_p + 0.1 * eps_p_new
     eps_u = eps_u + 0.1 * eps_u_new    
