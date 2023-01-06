@@ -11,8 +11,9 @@ phi = v_p
 eps_p = 0
 eps_u = 0
 
-#define max number of iterations
-max_iter = 134
+#define hyperparameters
+max_iter = 300
+lr = 0.12
 
 # define g and its derivative
 def g(x):
@@ -29,11 +30,13 @@ for i in range(0, max_iter):
     eps_u_new = u - g(phi) - sigma_u*eps_u
     
     # update the actual variables
-    phi = phi + 0.1 * phi_new
-    eps_p = eps_p + 0.1 * eps_p_new
-    eps_u = eps_u + 0.1 * eps_u_new    
+    phi = phi + lr * phi_new
+    eps_p = eps_p + lr * eps_p_new
+    eps_u = eps_u + lr * eps_u_new    
 
-    print('--------' + str(i) + '-------')
-    print(phi)
-    print(eps_p)
-    print(eps_u)
+    print('-------- iteration ' + str(i) + ' -------')
+    print('phi: ' + str(phi))
+    print('eps_p: ' + str(eps_p))
+    print('eps_u: ' + str(eps_u))
+    print('eps_p_new: ' + str(eps_p_new))
+    print('eps_u_new: ' + str(eps_u_new))
