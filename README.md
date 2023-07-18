@@ -1,3 +1,5 @@
+# Archived due to dropping the course
+
 # DL-PCImageGen
 
 By Wayne Zeng and Diego Arapovic (diego-arapovic <diego-arapovic@users.noreply.github.com>)
